@@ -246,6 +246,15 @@ textarea:focus {
 #closeBtn:hover {
   cursor: pointer;
 }
+
+.socialNet {
+  margin-top: .8rem;
+}
+.socialNet a {
+  text-decoration: none;
+  color: #f7f5f2;
+  margin: .5rem;
+}
 /*----------- footer----------- */
 .footer-copyright {
   font-size: 0.5rem;
@@ -352,6 +361,10 @@ textarea:focus {
     padding: 8px 30px;
     
   }
+
+  .socialNet {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -361,4 +374,5 @@ textarea:focus {
     margin-left: auto;
     margin-right: auto;
   }
+  
 }
